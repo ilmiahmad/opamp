@@ -1,0 +1,89 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729432554
+<< nwell >>
+rect -906 1218 96 1326
+<< viali >>
+rect -2134 2674 -2086 2710
+rect -1886 2674 -1838 2710
+rect -2134 2556 -2086 2592
+rect -1886 2556 -1838 2592
+rect -1644 2556 -1596 2592
+<< metal1 >>
+rect -1138 3541 -1105 3566
+rect -1138 3508 -589 3541
+rect -1138 3347 -730 3381
+rect -1138 3265 -1104 3347
+rect -2148 2710 -1584 2716
+rect -2148 2674 -2134 2710
+rect -2086 2674 -1886 2710
+rect -1838 2674 -1584 2710
+rect -2148 2592 -1584 2674
+rect -2148 2556 -2134 2592
+rect -2086 2556 -1886 2592
+rect -1838 2556 -1644 2592
+rect -1596 2556 -1584 2592
+rect -2148 2550 -1584 2556
+rect -2187 1284 -2153 1443
+rect -90 1400 -80 1452
+rect -28 1400 -18 1452
+rect -2187 1250 -1476 1284
+rect -2030 1062 -2020 1114
+rect -1968 1062 -1958 1114
+rect -1510 1070 -1476 1250
+rect -2206 886 -1976 954
+rect -2206 728 -1976 796
+<< via1 >>
+rect -80 1400 -28 1452
+rect -2020 1062 -1968 1114
+<< metal2 >>
+rect -1883 1299 -1837 1538
+rect -82 1452 -26 1462
+rect -82 1386 -26 1396
+rect -2303 1253 -1837 1299
+rect -2017 1124 -1971 1253
+rect -2020 1114 -1968 1124
+rect -2020 1052 -1968 1062
+<< via2 >>
+rect -82 1400 -80 1452
+rect -80 1400 -28 1452
+rect -28 1400 -26 1452
+rect -82 1396 -26 1400
+<< metal3 >>
+rect -1619 3996 -1543 4235
+rect -92 1452 -16 1460
+rect -92 1396 -82 1452
+rect -26 1396 -16 1452
+rect -92 879 -16 1396
+rect -205 803 -16 879
+use nmos_cs  nmos_cs_1
+timestamp 1729262064
+transform -1 0 -1194 0 -1 2915
+box -190 -1260 1078 259
+use nmos_dif  nmos_dif_0
+timestamp 1729265495
+transform 0 1 -1799 -1 0 2679
+box 88 -475 1370 611
+use pmos_cs  pmos_cs_0
+timestamp 1729261955
+transform -1 0 -78 0 -1 4089
+box -176 -104 822 2789
+use pmos_dif  pmos_dif_0
+timestamp 1729429965
+transform 0 -1 -1629 1 0 618
+box -176 -1609 622 489
+<< labels >>
+flabel nwell -420 1264 -418 1270 0 FreeSans 1600 0 0 0 vdd
+port 0 nsew
+flabel metal1 -1862 2642 -1860 2648 0 FreeSans 1600 0 0 0 vgnd
+port 1 nsew
+flabel metal1 -2184 740 -2180 742 0 FreeSans 1600 0 0 0 vin
+port 2 nsew
+flabel metal1 -2198 948 -2194 950 0 FreeSans 1600 0 0 0 vip
+port 3 nsew
+flabel metal3 -1588 4206 -1584 4208 0 FreeSans 1600 0 0 0 rs
+port 4 nsew
+flabel metal2 -2266 1274 -2262 1278 0 FreeSans 1600 0 0 0 out
+port 5 nsew
+<< end >>
